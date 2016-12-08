@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var userInput = process.argv[2];
+var stdin = process.stdin;
+var out = process.stdout;
+stdin.resume();
+out.write(userInput + " banana");
+process.exit(0);
